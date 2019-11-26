@@ -46,7 +46,7 @@ public class ArrayListWithCustomImple {
 		}
 		printValues(list);
 
-	}
+	} 
 
 	private void printValues(ArrayList<Data> list) {
 
