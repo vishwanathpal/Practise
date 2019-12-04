@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 public class PrintWriterTest {
 
 	public static void main(String[] args) throws IOException {
-
+		
 		FileWriter fw = new FileWriter("abc1.text");
 		PrintWriter pw = new PrintWriter(fw);
 		pw.write(100); // d
@@ -19,5 +19,4 @@ public class PrintWriterTest {
 		pw.flush();
 		pw.close();
 	}
-
 }
